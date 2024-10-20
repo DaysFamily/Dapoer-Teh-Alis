@@ -1,0 +1,22 @@
+<!-- Order Form Section -->
+<section id="order">
+    <div class="container">
+        <h2>Formulir Pemesanan</h2>
+        <form id="orderForm">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="menu">Pilih Menu:</label><br>
+            <select id="menu" name="menu">
+                <option value="Mie Tek-Tek Goreng">Mie Tek-Tek Goreng - Rp 20.000</option>
+                <option value="Mie Tek-Tek Kuah">Mie Tek-Tek Kuah - Rp 22.000</option>
+            </select><br>
+
+            <label for="quantity">Jumlah:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+            <button type="submit">Tambahkan ke Keranjang</button>
+        </form>
+        <div id="cart"></div>
+    </div>
+</section>
